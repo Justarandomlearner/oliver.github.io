@@ -1,0 +1,424 @@
+body {
+    margin: 0px;
+    
+}
+
+.wrapper {
+    display: grid;     
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;      
+  }
+       
+  .Header {
+    grid-column-start: 1; grid-column-end: 2;
+    grid-row-start: 1; grid-row-end: 2;
+    display: grid;    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #222831;
+  }
+
+  .Logo {
+    grid-column-start: 1; grid-column-end: 2;
+    grid-row-start: 1; grid-row-end: 2;
+    background-color: white;
+    padding-top: 5px;
+  }
+
+  #LOGO_IMG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+
+  }
+  
+  .Title {
+    grid-column-start: 2; grid-column-end: 13;
+    grid-row-start: 1; grid-row-end: 2;
+    background-color: #222831;
+    padding-left: 20px;
+    
+  }
+
+  .Navagation {
+    grid-column-start: 1; grid-column-end: 2;
+    grid-row-start: 2; grid-row-end: 3;
+    display: grid;
+    padding: 5px;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #00ADB5;
+  }
+
+  .Home{
+    grid-column-start: 1; grid-column-end: 2;
+    grid-row-start: 1; grid-row-end: 2;
+    background-color: #00ADB5;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 10px; padding-bottom: 10px;
+  }
+  .Skills{
+    grid-column-start: 2; grid-column-end: 3;
+    grid-row-start: 1; grid-row-end: 2;
+    background-color: #00ADB5;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 10px; padding-bottom: 10px;
+  }
+  .Education{
+    grid-column-start: 3; grid-column-end: 4;
+    grid-row-start: 1; grid-row-end: 2;
+    background-color: #00ADB5;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 10px; padding-bottom: 10px;
+  }
+  .Awards{
+    grid-column-start: 4; grid-column-end: 5;
+    grid-row-start: 1; grid-row-end: 2;
+    background-color: #00ADB5;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 10px; padding-bottom: 10px;
+  }
+  .Culture{
+    grid-column-start: 5; grid-column-end: 6;
+    grid-row-start: 1; grid-row-end: 2;
+    background-color: #00ADB5;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 10px; padding-bottom: 10px;
+  }
+
+  .ImageScrollbar {
+    grid-column-start: 1; grid-column-end: 2;
+    grid-row-start: 3; grid-row-end: 4;
+    background-color: #393E46;
+  }
+
+  #Content_Home {
+    grid-column-start: 1; grid-column-end: 2;
+    grid-row-start: 4; grid-row-end: 5;
+    display: grid;    
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+  }
+
+  .Intro {
+    grid-column-start: 1; grid-column-end: 2;
+    grid-row-start: 1; grid-row-end: 2;
+    background-color: #393E46;
+    text-align: center;
+    padding-top: 15px; padding-bottom: 10px;
+  }
+  .Tabs {
+    grid-column-start: 1; grid-column-end: 2;
+    grid-row-start: 2; grid-row-end: 4;
+    display: grid;
+    padding: 30px;
+    grid-gap: 70px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #00ADB5;
+  }
+  .SkillsT {
+    grid-column-start: 1; grid-column-end: 2;
+    grid-row-start: 1; grid-row-end: 2;
+    background-color: #EEEEEE;
+    text-align: center;
+  }
+  #TABS_IMG{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .EducationT {
+    grid-column-start: 2; grid-column-end: 3;
+    grid-row-start: 1; grid-row-end: 2;
+    background-color: #EEEEEE;
+    text-align: center;
+  }
+  .AwardsT {
+    grid-column-start: 3; grid-column-end: 4;
+    grid-row-start: 1; grid-row-end: 2;
+    background-color: #EEEEEE;
+    text-align: center;
+  }
+  .CultureT {
+    grid-column-start: 4; grid-column-end: 5;
+    grid-row-start: 1; grid-row-end: 2;
+    background-color: #EEEEEE;
+    text-align: center;
+  }
+  #Content_PrivacyPolicy {    
+    grid-column-start: 1; grid-column-end: 2;
+    grid-row-start: 4; grid-row-end: 5;
+    display: grid;
+    padding: 30px;
+    grid-gap: 70px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    background-color: #EEEEEE;
+  }
+  #PrivacyPolicy_Title {
+    text-align: center;
+    grid-column-start: 1; grid-column-end: 2;
+    grid-row-start: 1; grid-row-end: 2;
+  }
+  #PrivacyPolicy_Content {    
+    grid-column-start: 1; grid-column-end: 2;
+    grid-row-start: 2; grid-row-end: 3;
+  }
+  #Content_Skills {
+    grid-column-start: 1; grid-column-end: 2;
+    grid-row-start: 4; grid-row-end: 5;
+    display: grid;
+    padding: 30px;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: #EEEEEE;
+
+
+  }
+  .Punctual_TXT {
+    grid-column-start: 1; grid-column-end: 5;
+    grid-row-start: 1; grid-row-end: 2;
+    padding: 15px;
+    border:solid black 2px;
+  }
+  .Punctual_IMG {
+    grid-column-start: 5; grid-column-end: 7;
+    grid-row-start: 1; grid-row-end: 2;
+       
+    border:solid black 2px;
+  }
+  .Perseverance_TXT {
+    grid-column-start: 3; grid-column-end: 7;
+    grid-row-start: 2; grid-row-end: 3;
+    padding: 15px;
+    border:solid black 2px;
+  }
+  .Perseverance_IMG {
+    grid-column-start: 1; grid-column-end: 3;
+    grid-row-start: 2; grid-row-end: 3;
+    background-color: antiquewhite;
+    border:solid black 2px;
+  }
+  .ProblemSolving_TXT {
+    grid-column-start: 1; grid-column-end: 5;
+    grid-row-start: 3; grid-row-end: 4;
+    padding: 15px;
+    border:solid black 2px;
+  }
+  .ProblemSolving_IMG {
+    grid-column-start: 5; grid-column-end: 7;
+    grid-row-start: 3; grid-row-end: 4;
+    background-color: white;
+    border:solid black 2px;
+  }
+
+
+
+  #Content_Education {
+    grid-column-start: 1; grid-column-end: 2;
+    grid-row-start: 4; grid-row-end: 5;
+    display: grid;
+    padding: 30px;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: #EEEEEE;
+
+
+  }
+  .KCPS_TXT {
+    grid-column-start: 1; grid-column-end: 5;
+    grid-row-start: 1; grid-row-end: 2;
+    padding: 15px;
+    border:solid black 2px;
+  }
+  .KCPS_IMG {
+    grid-column-start: 5; grid-column-end: 7;
+    grid-row-start: 1; grid-row-end: 2;
+       
+    border:solid black 2px;
+  }
+  .HIS_TXT {
+    grid-column-start: 3; grid-column-end: 7;
+    grid-row-start: 2; grid-row-end: 3;
+    padding: 15px;
+    border:solid black 2px;
+  }
+  .HIS_IMG {
+    grid-column-start: 1; grid-column-end: 3;
+    grid-row-start: 2; grid-row-end: 3;
+    background-color: antiquewhite;
+    border:solid black 2px;
+  }
+  .BDSC_TXT {
+    grid-column-start: 1; grid-column-end: 5;
+    grid-row-start: 3; grid-row-end: 4;
+    padding: 15px;
+    border:solid black 2px;
+  }
+  .BDSC_IMG {
+    grid-column-start: 5; grid-column-end: 7;
+    grid-row-start: 3; grid-row-end: 4;
+    background-color: white;
+    border:solid black 2px;
+  }
+
+  #Content_Culture {
+    grid-column-start: 1; grid-column-end: 2;
+    grid-row-start: 4; grid-row-end: 5;
+    display: grid;
+    padding: 30px;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    background-color: #EEEEEE;
+
+  }
+  .Asian_TXT {
+    grid-column-start: 1; grid-column-end: 5;
+    grid-row-start: 1; grid-row-end: 2;
+    padding: 15px;
+    border:solid black 2px;
+  }
+  .Asian_IMG {
+    grid-column-start: 5; grid-column-end: 7;
+    grid-row-start: 1; grid-row-end: 2;
+    background-color: red;
+    border:solid black 2px;
+  }
+  .Food1_TXT {
+    grid-column-start: 1; grid-column-end: 3;
+    grid-row-start: 3; grid-row-end: 4;
+    padding: 15px;
+    border:solid black 2px;
+  }
+  .Food1_IMG {
+    grid-column-start: 1; grid-column-end: 3;
+    grid-row-start: 2; grid-row-end: 3;
+    background-color: white;
+    border:solid black 2px;
+  }
+  .Food2_TXT {
+    grid-column-start: 3; grid-column-end: 5;
+    grid-row-start: 3; grid-row-end: 4;
+    padding: 15px;
+    border:solid black 2px;
+  }
+  .Food2_IMG {
+    grid-column-start: 3; grid-column-end: 5;
+    grid-row-start: 2; grid-row-end: 3;
+    background-color: white;
+    border:solid black 2px;
+  }
+  .Food3_TXT {
+    grid-column-start: 5; grid-column-end: 7;
+    grid-row-start: 3; grid-row-end: 4;
+    padding: 15px;
+    border:solid black 2px;
+  }
+  .Food3_IMG {
+    grid-column-start: 5; grid-column-end: 7;
+    grid-row-start: 2; grid-row-end: 3;
+    background-color: white;
+    border:solid black 2px;
+  }
+  .Intrests_TXT {
+    grid-column-start: 1; grid-column-end: 7;
+    grid-row-start: 5; grid-row-end: 6;
+    padding: 15px;
+    border:solid black 2px;
+  }
+  .Intrests_IMG {
+    grid-column-start: 1; grid-column-end: 7;
+    grid-row-start: 4; grid-row-end: 5;
+    background-color: white;
+    border:solid black 2px;
+    
+    
+  }
+
+
+
+  .Footer {
+    grid-column-start: 1; grid-column-end: 2;
+    grid-row-start: 5; grid-row-end: 6;
+    display: grid;
+    padding: 20px;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    background-color: black;
+    
+  }
+  .Explore {
+    grid-column-start: 1; grid-column-end: 2;
+    grid-row-start: 1; grid-row-end: 5;
+    background-color: black;
+  }
+  .ContactMe {
+    grid-column-start: 2; grid-column-end: 4;
+    grid-row-start: 1; grid-row-end: 5;
+    background-color: black;
+  }
+  .Email {
+    grid-column-start:4; grid-column-end: 7;
+    grid-row-start: 1; grid-row-end: 5;
+    display: grid;
+    padding: 5px;    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;    
+    background-color: black;
+    border:solid white 2px;
+  }
+  .Stay_Connected {
+    grid-column-start: 1; grid-column-end: 2;
+    grid-row-start: 1; grid-row-end: 2;
+    background-color: black;
+    padding-top: 10px; padding-left: 10px;
+  }
+  .Email_Address {
+    grid-column-start: 1; grid-column-end: 2;
+    grid-row-start: 2; grid-row-end: 3;
+    background-color: black;
+    padding-left: 10px;
+  }
+  .Password {
+    grid-column-start: 1; grid-column-end: 2;
+    grid-row-start: 3; grid-row-end: 4;
+    background-color: black;
+    padding-left: 10px;
+  }
+  .Sign_Up {
+    grid-column-start: 3; grid-column-end: 4;
+    grid-row-start: 2; grid-row-end: 3;
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    }
+  .PrivacyPolicy {
+    grid-column-start: 1; grid-column-end: 7;
+    grid-row-start:5; grid-row-end:6;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+  /*div{border: 1px solid black}
